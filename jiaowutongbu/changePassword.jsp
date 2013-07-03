@@ -130,7 +130,7 @@ function Mysubmit()
       
  	   if(x.elements[1].value != x.elements[2].value)
        {	
-	  		alert("密码错误，请重新输入");
+	  		alert("两次密码输入不一致，请重新输入");
 		  	x.elements[0].value = "";
       			x.elements[1].value = "";
        			x.elements[2].value = "";
